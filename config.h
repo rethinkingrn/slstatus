@@ -68,7 +68,7 @@ static const struct arg args[] = {
 	{ netspeed_rx, " %sB/s  ", "wlp2s0" },
 	{ disk_used, " %sB  ", "/" },
 	{ cpu_perc, "閭 %s%%  ", NULL },
-	{ temp, " %sc  ", "/sys/class/thermal/thermal_zone0/hwmon1/temp1_input" },
+	{ temp, " %sc  ", "/sys/class/hwmon/hwmon2/temp1_input" },
 	{ ram_used, " %sB  ", NULL },
 	{ datetime, " %s",           "%F %T" },
 };
